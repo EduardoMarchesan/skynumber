@@ -1,0 +1,110 @@
+@media(max-width:700px){
+    body{
+        background-image: url("/static/imagens/rm222batch3-mind-10.jpg");
+    }
+
+    .photo{
+        display: block;
+        text-align: center;
+    }
+    .photo>img{
+        width: 15rem;
+        border-radius: 100%;
+        margin-top: 10%;
+
+    }
+
+    nav>h1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav>h1>a{
+        margin-top: 2rem;
+        color: aliceblue;
+        text-decoration: none;
+        background: rgba(122, 32, 32, 0.25);
+        backdrop-filter: blur( 3.5px );
+        -webkit-backdrop-filter: blur( 3.5px );
+        margin-left: 30%;
+        margin-right: 30%;
+        border-radius: 10px;
+    }
+    footer{
+        background: rgba(0, 0, 0, 0.842);
+        backdrop-filter: blur( 3.5px );
+        -webkit-backdrop-filter: blur( 3.5px );
+        color: gray;
+        text-align: center;
+        margin-left: -8px;
+        margin-right: -8px;
+        margin-top: 10em;
+        height: 5rem;
+        font-size: 1rem;
+    }
+    footer>h1>a{
+        margin-top: 5em;
+        text-decoration: none;
+        color: gray;
+        font-size: 1rem;
+    }
+    footer>h1{
+        font-size: 1rem;
+    }
+
+}
+@media (min-width:702px) {
+
+    body{
+        background-image: url("/static/imagens/rm222batch3-mind-10.jpg");
+    }
+
+    .photo{
+    display: block;
+    text-align: center;
+    }
+    .photo>img{
+        width: 30rem;
+        border-radius: 100%;
+        margin-top: 10%;
+
+    }
+
+    nav>h1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav>h1>a{
+        margin-top: 2rem;
+        color: aliceblue;
+        text-decoration: none;
+        background: rgba(122, 32, 32, 0.25);
+        backdrop-filter: blur( 3.5px );
+        -webkit-backdrop-filter: blur( 3.5px );
+        margin-left: 30%;
+        margin-right: 30%;
+        border-radius: 10px;
+    }
+
+    footer{
+        background: rgba(0, 0, 0, 0.842);
+        backdrop-filter: blur( 3.5px );
+        -webkit-backdrop-filter: blur( 3.5px );
+        color: gray;
+        text-align: center;
+        margin-left: -8px;
+        margin-right: -8px;
+        margin-top: 4em;
+        height: 15rem;
+    }
+    footer>h1>a{
+        margin-top: 5em;
+        text-decoration: none;
+        color: gray;
+        font-size: 1em;
+    }
+
+}
