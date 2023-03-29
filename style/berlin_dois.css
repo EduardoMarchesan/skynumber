@@ -1,0 +1,135 @@
+@media(max-width:700px){
+    body{
+        background-image: url("../static/imagens/background_berlin_dois.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .photo{
+        display: block;
+        text-align: center;
+    }
+    .photo>img:hover{
+        transition: 1s;
+        transform: scale(0.8);
+        -webkit-box-shadow: 55px 5px 17px 17px #130f0f00;
+        box-shadow: 30px 30px 57px 37px #03ff2d,-30px -30px 57px 37px rgb(0, 204, 255),-30px 30px 57px 37px rgb(253, 0, 139);
+    }
+    .photo>img{
+        width: 15rem;
+        border-radius: 100%;
+        margin-top: 10%;
+
+    }
+
+    nav>h1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+       
+    }
+
+    nav>h1>a{
+        margin-top: 2rem;
+        font-size: 1em;
+        color: aliceblue;
+        text-decoration: none;
+        background: rgba(247, 192, 192, 0.55);
+        backdrop-filter: blur( 0.5px );
+        -webkit-backdrop-filter: blur( 3.5px );
+        border-radius: 10px;
+    }
+    footer{
+        background: rgba(0, 0, 0, 0.842);
+        backdrop-filter: blur( 3.5px );
+        -webkit-backdrop-filter: blur( 3.5px );
+        color: gray;
+        text-align: center;
+        margin-left: -8px;
+        margin-right: -8px;
+        margin-bottom: -8px;
+        margin-top: 10em;
+        height: 5rem;
+        font-size: 1rem;
+    }
+    footer>div{
+        padding-top: 5%;
+    }
+    footer>div>h1>a{
+        margin-top: 5em;
+        text-decoration: none;
+        color: gray;
+        font-size: 1rem;
+    }
+    footer>div>h1{
+        font-size: 1rem;
+    }
+
+}
+@media (min-width:702px) {
+
+    body{
+        background-image: url("../static/imagens/background_berlin.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .photo{
+    display: block;
+    text-align: center;
+    }
+    .photo>img:hover{
+        transition: 1s;
+        transform: scale(0.8);
+        -webkit-box-shadow: 55px 5px 17px 17px #130f0f00;
+        box-shadow: 30px 30px 57px 37px #03ff2d,-30px -30px 57px 37px rgb(0, 204, 255),-30px 30px 57px 37px rgb(253, 0, 139);
+    }
+    .photo>img{
+        width: 30rem;
+        border-radius: 100%;
+        margin-top: 10%;
+
+    }
+
+    nav>h1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav>h1>a{
+        margin-top: 2rem;
+        color: aliceblue;
+        text-decoration: none;
+        background: rgba(247, 192, 192, 0.55);
+        backdrop-filter: blur( 0.5px );
+        -webkit-backdrop-filter: blur( 3.5px );
+        margin-left: 30%;
+        margin-right: 30%;
+        border-radius: 10px;
+    }
+
+    footer{
+        background: rgba(0, 0, 0, 0.842);
+        backdrop-filter: blur( 3.5px );
+        -webkit-backdrop-filter: blur( 3.5px );
+        color: gray;
+        text-align: center;
+        margin-left: -8px;
+        margin-right: -8px;
+        margin-bottom: -8px;
+        margin-top: 4em;
+        height: 15rem;
+    }
+    footer>div{
+        padding-top: 5%;
+    }
+    footer>div>h1>a{
+        margin-top: 5em;
+        padding-top: 10px;
+        text-decoration: none;
+        color: gray;
+        font-size: 1em;
+    }
+
+}

@@ -39,17 +39,21 @@
         text-align: center;
         margin-left: -8px;
         margin-right: -8px;
+        margin-bottom: -8px;
         margin-top: 10em;
         height: 5rem;
         font-size: 1rem;
     }
-    footer>h1>a{
+    footer>div>h1>a{
         margin-top: 5em;
         text-decoration: none;
         color: gray;
         font-size: 1rem;
     }
-    footer>h1{
+    footer>div{
+        padding-top: 5%;
+    }
+    footer>div>h1{
         font-size: 1rem;
     }
 
@@ -97,10 +101,14 @@
         text-align: center;
         margin-left: -8px;
         margin-right: -8px;
+        margin-bottom: -8px;
         margin-top: 4em;
         height: 15rem;
     }
-    footer>h1>a{
+    footer>div{
+        padding-top: 5%;
+    }
+    footer>div>h1>a{
         margin-top: 5em;
         text-decoration: none;
         color: gray;
